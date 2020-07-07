@@ -1,0 +1,50 @@
+#logo{
+    height: 40px;
+    width: 86.22px;
+}
+.float-right{
+    align-items: flex-end;
+}
+.bg1{
+    background-image: url("./hot-gadgets/bg/biography-bg.png");
+    background-size: cover;
+    border: 1px solid red;
+}
+.container{
+    border: 1px solid skyblue;
+    margin-bottom: 20px;
+}
+.carousel-item{
+   padding:10%;
+}
+p{
+    color: gray;
+    font-size: medium;
+}
+.center-text{
+    margin-top: auto;
+    margin-bottom: auto;
+}
+.btn-mid{
+    margin-left: auto;
+    margin-bottom: auto;
+}
+.carousel-indicators li{
+   background-color: gray;
+   border-radius: 50%;
+   width: 6px;
+   height: 6px;
+   margin: 0px 9px;
+    
+}
+.carousel-indicators .active{
+    width: 45px;
+    border-radius: 10px;
+    height: 4px;
+    background-color: orange;
+    /* background: linear-gradient(to right, #f46b45, #eea849);  */
+}
+
+.colored-text{
+    color: orangered;
+}
