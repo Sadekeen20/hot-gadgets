@@ -2,17 +2,15 @@
     height: 40px;
     width: 86.22px;
 }
-.float-right{
-    align-items: flex-end;
-}
+
 .bg1{
     background-image: url("./hot-gadgets/bg/biography-bg.png");
     background-size: cover;
-    border: 1px solid red;
+    /* border: 1px solid red; */
 }
 .container{
-    border: 1px solid skyblue;
-    margin-bottom: 20px;
+    /* border: 1px solid skyblue; */
+    padding-bottom: 50px;
 }
 .carousel-item{
    padding:10%;
@@ -41,10 +39,45 @@ p{
     width: 45px;
     border-radius: 10px;
     height: 4px;
-    background-color: orange;
+    background-color: rgb(255, 81, 0);
     /* background: linear-gradient(to right, #f46b45, #eea849);  */
 }
 
 .colored-text{
-    color: orangered;
+    color:#e53935;
+}
+.free-padd{
+    padding:10px
+}
+.card{
+    border: none;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px lightgray;
+
+}
+.card img{
+    
+}
+
+/* .row{
+    border:blueviolet;
+}
+ .col{
+    border: 2px solid burlywood
+} */
+
+.ctrl-img{
+        max-width: 100%;
+        max-height: 100%;
+        display: block; /* remove extra space below image */
+    }
+.center-text-lr{
+   text-align: center;
+}
+.line{
+    height: 8px;
+    width: 100px;
+    border-radius: 4px;
+    background-color: orange;
+    margin: 0 auto;
 }
